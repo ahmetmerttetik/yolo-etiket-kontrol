@@ -76,9 +76,9 @@ def view_images_with_labels(images_dir, labels_dir, class_name_dir):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="YOLO Etiket Goruntuleme Kodu")
 
-    parser.add_argument("--images", "--i", required=True, help="Images klasorunun bulundugu dizin")
-    parser.add_argument("--labels", "--l", required=True, help="Labels klasorunun bulunduğu dizin")
-    parser.add_argument("--classes", "--c", required=True, help="Etiketi isimlerinin bulundugu dosyanin dizini")
+    parser.add_argument("--images", "-i", required=True, help="Images klasorunun bulundugu dizin")
+    parser.add_argument("--labels", "-l", required=True, help="Labels klasorunun bulunduğu dizin")
+    parser.add_argument("--classes", "-c", required=True, help="Etiketi isimlerinin bulundugu dosyanin dizini")
 
     args = parser.parse_args()
 
