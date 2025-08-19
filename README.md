@@ -28,7 +28,11 @@ Program aşağıdaki parametrelerle çalıştırılır:
 
 ```bash
 python yolo_label_control.py --images [images dir] --labels [labels dir] --classes [classes.txt path]
-||
+```
+
+veya
+
+```bash
 python yolo_label_control.py -i [images dir] -l [labels dir] -c [classes.txt path]
 ```
 
